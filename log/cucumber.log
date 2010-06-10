@@ -1,0 +1,194 @@
+# Logfile created on Thu Jun 10 16:20:00 -0300 2010  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /participantes with {} and HTTP headers {}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-10 16:38:10) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /participantes with {} and HTTP headers {}
+
+
+Processing ParticipantesController#index (for 127.0.0.1 at 2010-06-10 16:40:28) [GET]
+  [4;35;1mParticipante Load (0.3ms)[0m   [0mSELECT * FROM `participantes` [0m
+Rendering template within layouts/participantes
+Rendering participantes/index
+Completed in 45ms (View: 40, DB: 0) | 200 OK [http://www.example.com/participantes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /participantes with {} and HTTP headers {}
+
+
+Processing ParticipantesController#index (for 127.0.0.1 at 2010-06-10 16:44:54) [GET]
+  [4;35;1mParticipante Load (0.2ms)[0m   [0mSELECT * FROM `participantes` [0m
+Rendering template within layouts/participantes
+Rendering participantes/index
+Completed in 34ms (View: 29, DB: 0) | 200 OK [http://www.example.com/participantes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /participantes with {} and HTTP headers {}
+
+
+Processing ParticipantesController#index (for 127.0.0.1 at 2010-06-10 16:45:31) [GET]
+  [4;35;1mParticipante Load (0.2ms)[0m   [0mSELECT * FROM `participantes` [0m
+Rendering template within layouts/participantes
+Rendering participantes/index
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://www.example.com/participantes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /participantes/new with {} and HTTP headers {}
+
+
+Processing ParticipantesController#new (for 127.0.0.1 at 2010-06-10 16:50:58) [GET]
+  [4;35;1mParticipante Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `participantes`[0m
+Rendering template within layouts/participantes
+Rendering participantes/new
+Completed in 26ms (View: 21, DB: 1) | 200 OK [http://www.example.com/participantes/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /participantes/new with {} and HTTP headers {}
+
+
+Processing ParticipantesController#new (for 127.0.0.1 at 2010-06-10 16:51:15) [GET]
+  [4;35;1mParticipante Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `participantes`[0m
+Rendering template within layouts/participantes
+Rendering participantes/new
+Completed in 28ms (View: 21, DB: 1) | 200 OK [http://www.example.com/participantes/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /participantes with {} and HTTP headers {}
+
+
+Processing ParticipantesController#index (for 127.0.0.1 at 2010-06-10 17:00:11) [GET]
+  [4;35;1mParticipante Load (0.2ms)[0m   [0mSELECT * FROM `participantes` [0m
+Rendering template within layouts/participantes
+Rendering participantes/index
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://www.example.com/participantes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /participantes with {} and HTTP headers {}
+
+
+Processing ParticipantesController#index (for 127.0.0.1 at 2010-06-10 17:01:45) [GET]
+  [4;35;1mParticipante Load (0.2ms)[0m   [0mSELECT * FROM `participantes` [0m
+Rendering template within layouts/participantes
+Rendering participantes/index
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://www.example.com/participantes]
+REQUESTING PAGE: GET /participantes/new with {} and HTTP headers {"HTTP_REFERER"=>"/participantes"}
+
+
+Processing ParticipantesController#new (for 127.0.0.1 at 2010-06-10 17:01:45) [GET]
+  [4;36;1mParticipante Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `participantes`[0m
+Rendering template within layouts/participantes
+Rendering participantes/new
+Completed in 9ms (View: 7, DB: 1) | 200 OK [http://www.example.com/participantes/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /participantes with {} and HTTP headers {}
+
+
+Processing ParticipantesController#index (for 127.0.0.1 at 2010-06-10 17:05:14) [GET]
+  [4;35;1mParticipante Load (0.2ms)[0m   [0mSELECT * FROM `participantes` [0m
+Rendering template within layouts/participantes
+Rendering participantes/index
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://www.example.com/participantes]
+REQUESTING PAGE: GET /participantes/new with {} and HTTP headers {"HTTP_REFERER"=>"/participantes"}
+
+
+Processing ParticipantesController#new (for 127.0.0.1 at 2010-06-10 17:05:14) [GET]
+  [4;36;1mParticipante Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `participantes`[0m
+Rendering template within layouts/participantes
+Rendering participantes/new
+Completed in 9ms (View: 6, DB: 1) | 200 OK [http://www.example.com/participantes/new]
+REQUESTING PAGE: POST /participantes with {"commit"=>"Create", "participante"=>{"nome"=>"Luiz"}} and HTTP headers {"HTTP_REFERER"=>"/participantes/new"}
+
+
+Processing ParticipantesController#create (for 127.0.0.1 at 2010-06-10 17:05:14) [POST]
+  Parameters: {"commit"=>"Create", "participante"=>{"nome"=>"Luiz"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mParticipante Create (0.2ms)[0m   [0;1mINSERT INTO `participantes` (`created_at`, `nome`, `updated_at`) VALUES('2010-06-10 20:05:14', 'Luiz', '2010-06-10 20:05:14')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/participantes/2
+Completed in 4ms (DB: 0) | 302 Found [http://www.example.com/participantes]
+REQUESTING PAGE: GET http://www.example.com/participantes/2 with {} and HTTP headers {"HTTP_REFERER"=>"/participantes"}
+
+
+Processing ParticipantesController#show (for 127.0.0.1 at 2010-06-10 17:05:14) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mParticipante Load (0.3ms)[0m   [0;1mSELECT * FROM `participantes` WHERE (`participantes`.`id` = 2) [0m
+Rendering template within layouts/participantes
+Rendering participantes/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/participantes/2]
+  [4;35;1mSQL (4.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /participantes with {} and HTTP headers {}
+
+
+Processing ParticipantesController#index (for 127.0.0.1 at 2010-06-10 17:05:27) [GET]
+  [4;35;1mParticipante Load (0.3ms)[0m   [0mSELECT * FROM `participantes` [0m
+Rendering template within layouts/participantes
+Rendering participantes/index
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://www.example.com/participantes]
+REQUESTING PAGE: GET /participantes/new with {} and HTTP headers {"HTTP_REFERER"=>"/participantes"}
+
+
+Processing ParticipantesController#new (for 127.0.0.1 at 2010-06-10 17:05:27) [GET]
+  [4;36;1mParticipante Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `participantes`[0m
+Rendering template within layouts/participantes
+Rendering participantes/new
+Completed in 9ms (View: 6, DB: 1) | 200 OK [http://www.example.com/participantes/new]
+REQUESTING PAGE: POST /participantes with {"commit"=>"Create", "participante"=>{"nome"=>"Luiz"}} and HTTP headers {"HTTP_REFERER"=>"/participantes/new"}
+
+
+Processing ParticipantesController#create (for 127.0.0.1 at 2010-06-10 17:05:27) [POST]
+  Parameters: {"commit"=>"Create", "participante"=>{"nome"=>"Luiz"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mParticipante Create (0.2ms)[0m   [0;1mINSERT INTO `participantes` (`created_at`, `nome`, `updated_at`) VALUES('2010-06-10 20:05:27', 'Luiz', '2010-06-10 20:05:27')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/participantes/3
+Completed in 4ms (DB: 0) | 302 Found [http://www.example.com/participantes]
+REQUESTING PAGE: GET http://www.example.com/participantes/3 with {} and HTTP headers {"HTTP_REFERER"=>"/participantes"}
+
+
+Processing ParticipantesController#show (for 127.0.0.1 at 2010-06-10 17:05:27) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mParticipante Load (0.7ms)[0m   [0;1mSELECT * FROM `participantes` WHERE (`participantes`.`id` = 3) [0m
+Rendering template within layouts/participantes
+Rendering participantes/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://www.example.com/participantes/3]
+  [4;35;1mSQL (2.4ms)[0m   [0mROLLBACK[0m
